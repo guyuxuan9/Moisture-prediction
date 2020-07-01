@@ -16,8 +16,6 @@ class MainWindow(QMainWindow):
 
     autoCapturing = False  # 是否处于自动采集状态
     interval = 10          # 自动采集的间隔秒数
-    # lastMoisture = None    # 上一次采集到的湿度
-    # lastFrame = None       # 上一帧采集到的图像
 
     def __init__(self, app):
         super(MainWindow, self).__init__()
